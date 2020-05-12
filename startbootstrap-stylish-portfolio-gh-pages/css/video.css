@@ -59,6 +59,10 @@ body.utopian {
  background-color: #dfb99d;
 }
 
+body.smiley {
+ background-color: #dfb99d;
+}
+
 body.tempo {
  background-image: url("../img/tempo_screenshot_01.png");
  background-color: #1d809f;
@@ -70,14 +74,29 @@ body.time-travelling {
  color: #ffffff;
 }
 
+body.paradises {
+ background-image:url("../img/madeira_01.png");
+ background-color: #1d809f;
+}
+
 body.chiacchierata {
  background-image: url("../img/chiacchierata_screenshot_01.png");
  background-color: #1d809f;
  color: #ffffff;
 }
 
+body.strolling{
+ background-color: #dfb99d;
+}
+
 body.reliquia {
  background-image: url("../img/reliquia_screenshot_01.png");
+ background-color: #dfb99d;
+ color: #ffffff;
+}
+
+body.fuga{
+ background-image: url("../img/fuga_01.png");
  background-color: #dfb99d;
  color: #ffffff;
 }
@@ -92,8 +111,8 @@ body.ricordi {
  color: #ffffff;
 }
 
-body.utopian {
- background-color: #dfb99dl;
+body.nem {
+ background-color: #dfb99d;
 }
 
 .center {
@@ -112,6 +131,10 @@ img.imgcenter{
   padding:30px 0px 30px 0px;
 }
 
+figcaption {
+  display: block;
+  text-align: left;
+}
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
