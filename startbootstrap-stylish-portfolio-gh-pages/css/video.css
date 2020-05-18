@@ -180,6 +180,12 @@ figcaption {
   cursor: pointer;
 }
 
+/* Bottoni navigazione */
+a.buttonNav {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
 /* Home page */
 
 img.coverHome{
@@ -240,6 +246,7 @@ ul.nopallini>li{
 
 /* About */
 
+/* 
 .about {
   padding-top:8rem;
   margin: auto;
@@ -250,6 +257,10 @@ ul.nopallini>li{
   padding-top: 20px;
   font-size:5rem;
   color: #1d809f;px;
+} */
+
+.about {
+  color: #1d809f;
 }
 
 p.cv {
