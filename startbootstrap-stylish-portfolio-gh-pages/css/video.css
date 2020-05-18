@@ -50,7 +50,7 @@ h6{
 line-height: 1.5em;
 }
 
-body.utopian, body.smiley, body.home, body.about {
+body.utopian, body.serenata, body.smiley, body.home, body.about {
  background-image: linear-gradient(to right, #dfb99d, #FFEFD5);
 }
 
@@ -95,10 +95,6 @@ body.fuga{
  background-color: #dfb99d;
  color: #ffffff;
  background-size: 10%;
-}
-
-body.serenata {
- background-color: #dfb99d;
 }
 
 body.ricordi {
@@ -180,7 +176,7 @@ figcaption {
   cursor: pointer;
 }
 
-/* Bottoni navigazione */
+//* Bottoni navigazione */
 a.buttonNav {
   text-align: left;
   padding-bottom: 30px;
@@ -246,7 +242,7 @@ ul.nopallini>li{
 
 /* About */
 
-/* 
+/*
 .about {
   padding-top:8rem;
   margin: auto;
@@ -257,7 +253,7 @@ ul.nopallini>li{
   padding-top: 20px;
   font-size:5rem;
   color: #1d809f;px;
-} */
+}*/
 
 .about {
   color: #1d809f;
@@ -268,5 +264,21 @@ p.cv {
   text-align: left;
   padding-top: 20px;
   font-size:1rem;
+  color: #1d809f;
+}
+
+/* unvisited link */
+a.link {
+  color: #1d809f;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
   color: #1d809f;
 }
